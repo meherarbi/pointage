@@ -1,0 +1,11 @@
+{# templates/pointage/index.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Pointage</h1>
+    {{ form_start(pointageForm) }}
+    {{ form_widget(pointageForm) }}
+    <button type="submit">Pointage</button>
+    {{ form_end(pointageForm) }}
+{% endblock %}
